@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Installation</title>
+
+    <!-- Google Font Source code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Kotta+One&family=Lilita+One&family=Merriweather&family=Montaga&family=Montserrat:wght@200;900&family=Parisienne&family=Sacramento&family=Tai+Heritage+Pro&family=Ubuntu:ital,wght@1,300&family=Water+Brush&family=WindSong&display=swap" rel="stylesheet">
+    
+     <!-- Javascript source Code -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap Source Code -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   
+    <!-- style.css connection code -->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <!-- Frontawesome source code -->
+    <script src="https://kit.fontawesome.com/85838743ef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!---------------------------------------------------------- title section of web --------------------------------------------------------  -->
+   
+<section id="title"> 
+
+     <!-- to create navigation bar -->
+    <nav class="navbar navbar-expand-lg" > 
+
+    <!-- to put brand logo/ text to website. -->
+        <a class="navbar-brand nb " href="#title">Jaladhi</a>
+
+    <!-- to create toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#t1" aria-controls="t1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="t1">
+
+    <!-- to create  navbar item -->
+            <ul class="navbar-nav ms-auto  ni" >
+
+                
+
+                <li class="nav-item">
+                <a class="nav-link" href="#testomonial">Testimony</a>
+                </li class="nav-item">
+
+                <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+
+                
+                <li class="nav-item">
+                <a class="nav-link" href="#social-media">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                    </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- to write content  -->
+   
+    <div class="container-fluid">  
+    <!-- element inside  container fluid adjust itself on when we change screen ratio > -->
+   
+    <div class="row">
+        <div class= "col-lg-6">
+
+    <!-- To create coloumn we use col-lg/md/sm-number. On screen there are 12 units.
+        col-lg-6 means i.e when screen ratio is large or more than coloumn will divide into 6 units 
+            Number of coloumn we want that many times we will write <div class= "col-lg/md/sm-number">  -->
+
+            <h1 class="bu1">Grow your buisness by shifting to website</h1>
+            <button type="button" class="btn btn-lg btn1" ><h5><a class="login1"href="login.html">Sign-In</a></h5></button>
+            <button type="button" class="btn btn-lg btn2"><h5>Share Idea</h5></button>
+        </div>
+      <div class="col-lg-6">
+        <img class="img1" src="Images/AW.png" alt="iphone-mockup">
+      </div>
+
+    </div>
+</div>
+        
+    </section>
+
+<!-------------------------------------------------------- Features of website ---------------------------------------------------------->
+
+    <section id="features">
+       
+            <div class="row">
+
+                <div class="fb col-lg-4 "> 
+
+                    <!-- added logo from Frontawesome -->
+                    <i class="colour fa-solid fa-wallet fa-3x"></i>
+                    <h3>Low Cost</h3>
+                    <p>Create better websites with mobile-responsive templates, seamless drag & drop and many more at low cost. </p>
+                </div>
+
+                <div class=" fb col-lg-4 ">
+                    <i class=" colour fa-solid fa-business-time fa-3x"></i>
+                    <h3>Priority</h3>
+                    <p>We listen your ideas.Work on it till you don't  like your website </p>
+                </div>
+
+                <div class="fb col-lg-4 ">
+                    <i class="colour fa-solid fa-handshake fa-3x"></i>
+                    <h3>Trust</h3>
+                    <p>We first buid website and than we ask you cost</p>
+                </div>
+
+            </div>
+ 
+    </section>
+
+    <!---------------------------------------------------------- testomonial ---------------------------------------------------------->
+    <section id="testomonial">
+        
+    
+        <div id="test" class="carousel slide" data-inteval="2000">
+            <div class="carousel-inner">
+
+     <!-- Adding Slider along with button -->
+              <div class="carousel-item active">
+                <h2 class="hh">Now I have to not wait for orders from other e-commerce website. Now I sell my products from my own website only.</h2>
+                <img class="img2" src="https://media.giphy.com/media/YziQwwRUQ7NSTnbxKM/giphy.gif" alt =" image";>
+                <p class="em1"> Aarav, Delhi</p>
+              </div>
+
+              <div  class="carousel-item">
+                <h2 class="hh">After covid I decided to work on my startup and after all work last step was to have website and I did that..</h2>
+                <img class="img3" src="https://media.giphy.com/media/NoElgA56abXKhuNWsY/giphy.gif" alt="Image " >
+                <p class="em2"> Prisha, Deoria</p>
+            </div>
+
+              <div class="carousel-item">
+                <h2 class="hh"> Till last year I use to take order at whatsapp or on call  but as customer were increasing  it become difficult so I decided to have website  </h2>
+                <img class="img4" src="https://media.giphy.com/media/CyrBy2YkQWkqPjFGXo/giphy.gif" alt=" image">
+                <p class="em3"> Vedanshu, Patana </p> 
+            </div>
+
+            <!-- Adding button to slide -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#test" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#test" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </section>
+
+    <!---------------------------------------------------------- pricing ---------------------------------------------------------->
+    
+    <section id="pricing">
+        <h2 >Manage your buisness from one place</h2>
+        <p>Simple and affordable price for you and for your buisness</p>
+         
+        <div class="card-group">
+            <div class="pc" col-lg-4 col-md-6> 
+            <div class="card">
+                <div class="card-header ch1">
+                    <h4>4.9 $</h4>
+                </div>
+                <div class="card-body cb1">
+                    <p>Create website </p>
+                    <p>No quick Response</p>
+                    <p>5 messages per day</p>
+                   
+                    <p>No editing of website once it is shown</p>
+                    <br>
+                    <button type="button" class="btn btn-lg btn3"><h5>Buy Now</h5></button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="pc" col-lg-4 col-md-6>
+            <div class="card">
+                <div class="card-header ch1">
+                    <h4> 8.9 $</h4>
+                </div>
+                <div class="card-body cb1">
+                    <p>Create website </p>
+                    <p>No quick Response</p>
+                    <p>15 messages per day</p>
+                   
+                    <p>1 time editing of website once it is shown</p>
+                    <br>
+                   <button type="button" class="btn btn-lg btn3"><h5>Buy Now</h5></button>
+                </div>
+            </div>
+        </div>
+
+        <div class=" pc" col-lg-4 col-md-6>
+            <div class="card">
+                <div class="card-header ch1 ">
+                    <h4>11.9 $</h4>
+                </div>
+                <div class="card-body cb1">
+                    <p>Create website </p>
+                    <p>Response as soon as possible</p>
+                    <p>Unlimited messages per day</p>
+                    
+                    <p>2 time editing of website once it is shown</p>
+                    
+                    <button type="button" class="btn btn-lg btn3" s><h5>Buy Now</h5></button>
+                </div>
+            </div> 
+            
+        </div>
+    </div>
+    </section>
+
+    <!------------------------------------------------------------ Footer ---------------------------------------------------------------->
+
+    <section id="cta">
+        <div class="cta1">
+            <h2 class="cta2">If decided than for whome you are waiting </h2>
+           <p class="cta3">Go online , grow onine</p> 
+        </div>
+        <div>
+            <button type="button" class="btn btn-lg btn4"><a class="price" href="#pricing"><h5>Buy Now</h5></a></button>
+            <button type="buttom" class="btn btn-lg btn5"><h5 > About</h5> </button>
+        </div>
+        </section>
+
+<!---------------------------------------------------------- Social media links ---------------------------------------------------------->
+
+<section id="social-media">
+    <div >
+        <a  class="color1 "href="https://www.instagram.com"> <i class="fa-brands fa-instagram-square "></i></a>
+       <a class="color1" href="https://in.linkedin.com/jobs"><i class="fa-brands fa-linkedin "></i></a>
+       <a class="color1" href="https://www.facebook.com "><i class="fa-brands fa-facebook-square "></i></a>
+    </div>
+    <div class="cr">
+        <p>©️ Copyright 2022 Jaladhi</p>
+    </div>
+</section> 
+</body>
+</html>
