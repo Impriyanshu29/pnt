@@ -286,6 +286,14 @@ p
   
   
 }
+@media (max-width : 369px )
+{
+    .la5
+    {
+        width: 90%;
+    }
+}
+
 .ch2
 {
     border-color: #082032;
@@ -320,6 +328,7 @@ p
  {
     position: relative;
     right: 2%;
+    
  }
  .btn6:hover
  {
