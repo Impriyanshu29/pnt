@@ -127,8 +127,9 @@ p
 
 #testomonial
     {
+        line-height: 9rem;
         padding: 6%;
-        
+        text-align: center;
         background-color: #b7dde1;
     }
 
@@ -137,45 +138,23 @@ p
     {
         width: 145px;
         margin: 10px;
-        position: relative;
-        left: 43%;
+        
     }
     .img3
     {
         width: 145px;
         margin: 10px;
-        position: relative;
-        left: 43%;
     }
        
     .img4
     {
         width: 145px;
         margin: 10px;
-        position: relative;
-        left: 42%;
+        
     }
     
 
-    .em1
-    {
-        position: relative;
-        left: 46.4%;
-     
-    }
-
-    .em2
-    {
-      
-        position: relative;
-        left:45.5% ;
-       
-    }
-    .em3
-    {
-        position: relative;
-        left:43.7% ;
-    }
+    
     .carousel-control-next
     {
         position: absolute;
