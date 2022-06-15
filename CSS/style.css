@@ -1,0 +1,296 @@
+
+h1
+{
+    font-family: 'Montaga', serif;
+    font-size: 3.2rem;
+} 
+h2
+ {
+    font-family: 'Kotta One', serif;
+    font-weight: bold; 
+ }
+h3
+{
+    font-family: 'Kotta One', serif;
+    font-weight: bold;   
+}
+h5
+{
+     font-family: 'Montaga', serif;
+     margin: 1px;
+}
+
+p
+{
+    color: #8f8f8f;
+}
+
+/* ****************************************************** title section of web **********************************************************/
+
+#title
+{
+    background-color: #e8f8fc;
+}
+
+.container-fluid
+    {
+        padding: 3% 15% 7% 15%;
+    }
+.navbar-brand
+    {
+        font-family: 'Water Brush', cursive;
+        font-size: xx-large;
+        padding: 16px;
+        font-weight: 2rem;
+      
+        
+    }
+.ni
+    {
+        padding: 30px;
+        
+    }
+
+.btn1
+    {
+        background-color: #082032;
+        color: #e8f8fc;
+        margin: 5% 3% 5% 0;
+    }
+ 
+.btn2
+    {
+        border-color: #082032;
+        color: black;
+    }
+.btn2:hover
+    {
+        background-color:  #719FB0;
+    }
+    .login1
+    {
+        color: #e8f8fc;
+        text-decoration: none;
+    }
+
+    .login1:hover
+    {
+    color: black;
+    }
+
+ @media(max-width : 992px )
+    {
+        .img1
+        {
+            position: static;
+            transform: rotate(0);
+            width: 500px;
+            padding: 0px 80px 0px 0px;
+        }
+    }
+
+@media(max-width : 992px)
+    {
+    #title
+        {
+        text-align: center;
+        }
+    }
+
+
+
+ /*********************************************** features css starts from here **********************************************************/
+
+#features
+    {
+        background-color : white;
+        padding: 10% 15%;
+      
+        position: relative;
+    }
+.fb
+    {
+        
+        padding: 5%;
+    }
+.colour
+    {
+        color:#719FB0; 
+        padding: 5% ;
+    }
+.colour:hover
+    {
+        color: black ;
+    }
+
+/************************************************************ testimonial****************************************************************/
+
+#testomonial
+    {
+        padding: 6%;
+        
+        background-color: #b7dde1;
+    }
+
+
+    .img2
+    {
+        width: 145px;
+        margin: 10px;
+        position: relative;
+        left: 43%;
+    }
+    .img3
+    {
+        width: 145px;
+        margin: 10px;
+        position: relative;
+        left: 43%;
+    }
+       
+    .img4
+    {
+        width: 145px;
+        margin: 10px;
+        position: relative;
+        left: 42%;
+    }
+    
+
+    .em1
+    {
+        position: relative;
+        left: 45%;
+       
+    }
+    .em2
+
+
+    {
+        position: relative;
+        left: 40%;
+       
+    }
+    .carousel-control-next
+    {
+        position: absolute;
+        left: 90%
+    }
+
+    .hh
+    {   
+        font-family: 'Kotta One', serif;
+        padding: 3% 20%;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    
+    }
+
+ /************************************************************  pricing *************************************************************** */
+
+ #pricing
+    {
+        padding: 80px;
+    }
+ .pc
+    {
+        padding: 2% 2%;
+    background-color: #ebfcfc; 
+    }
+ .ch1
+    {
+        font-family: 'Kotta One', serif;
+        text-align: center;
+        
+        background-color: #A6E3E9; 
+        color: #063141;
+    }
+
+ .cb1
+    {
+        background-color: #e2f8f9;
+        text-align: center;
+        border-radius: 2%;
+    
+    }
+ .btn3:hover
+    {
+        background-color: #A6E3E9;
+    
+    }
+    
+ /*************************************************************** footer **************************************************************/
+
+ #cta
+    {
+        padding: 3%;
+        line-height: 2rem;
+        text-align: center;
+        background-color: #CDF0EA;
+    }
+ 
+ .btn4
+ {
+    margin: 2% 1% 5% 1%;
+    border-color: #082032;
+    background-color: #082032;
+ }
+
+ .price
+ {
+    color: white;
+    text-decoration: none;
+ }
+
+ .price:hover
+ {
+    color: black;
+ }
+
+ .btn4:hover
+ {
+    background-color:#CDF0EA ;
+    color: black ;
+ }
+  .btn5
+ {
+    margin: 2% 1% 5% 1%;
+    border-color: #082032;
+
+ }
+ .btn5:hover
+ {
+    background-color:#719FB0 ;
+    color: black;
+ }
+ .cta2
+ {
+    padding: 5% 0% 0% 0%;
+ }
+
+ /*****************************************************  Social media links ************************************************************ */
+
+ #social-media
+ {
+    text-align: center;
+    background-color: white;
+    padding-top: 3%;
+ }
+
+ .color1
+ {
+    margin: 1%;
+    color: #082032;
+ }
+ 
+ 
+ .cr
+
+{ 
+   padding-top: 1%;
+}
+
+ /* Login */
+ 
+ 
